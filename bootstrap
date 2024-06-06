@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>        
+
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-info my-4">Login Form</h1>
+        <form class="form-inline mr-4" >
+            <!--Username-->
+            <div class="mr-4">
+                <label>Username</label>
+            </div>
+            <div class="mr-4">
+                <input type="text" class="form-control" placeholder="Enter userame">
+            </div>
+            <!--Password-->
+            <div class="mr-4">
+                <label>Password</label>
+            </div>
+            <div>
+                <input type="password" class="form-control" placeholder="enter password">
+            </div>
+            <!--Login-->
+            <div class="col mr-4">
+                <input type="submit" value="Login" class="btn btn-success" >
+            </div>
+        </form>
+        <h1 class="text-info mt-5">Registration Form</h1>
+        <form>
+            <div class="form-group ">
+                <div>
+                    <label>Fist Name</label>
+                    <div>
+                        <input type="text" class="form-group-row" placeholder="First Name">
+                        <small class="form-text text-danger">Enter First name</small>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div>
+                    <label>Last Name</label>
+                    <div>
+                        <input type="text" class="form-group-row" placeholder="Lastname">
+                        <small class="form-text text-danger">Enter Last name</small>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div>
+                    <div class="input-group">
+                        <input type="email" class="form-group-row" placeholder="Email">
+                        <div class="input-group-append">
+                            <span class="input-group-text">
+                                @srmap.com
+                            </span>
+                        </div>
+                    </div>
+                    <small class="form-text text-danger">Enter email</small>
+                </div>
+            </div>
+            <div class="form-group">
+                <div>
+                    <label>Languages</label>
+                </div>
+                <div>
+                    <div class="form-check-inline">
+                        <input type="checkbox" class="form-check-input mx-2">
+                        <label class="form-check-label">Marathi</label>
+                        <input type="checkbox" class="form-check-input mx-2">
+                        <label class="form-check-label">Telugu</label>
+                        <input type="checkbox" class="form-check-input mx-2">
+                        <label class="form-check-label">English</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div>
+                    <Label>Gender</Label>
+                </div>
+                <div>
+                    <div class="form-check-inline">
+                        <input type="radio" class="form-check-input mx-2" name='gender'>
+                        <label class="form-check-label">Male</label>
+                        <input type="radio" class="form-check-input mx-2" name="gender">
+                        <label class="form-check-label">Female</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group append" placeholder="enter your address">
+                <div>
+                    <label>Address:- </label>
+                </div>
+                <div>
+                    <textarea class="form-group-column"></textarea>
+                </div>
+            </div>
+            <div class="form-group-column">
+                <input type="submit" class="btn btn-success ">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
